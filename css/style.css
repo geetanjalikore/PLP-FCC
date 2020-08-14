@@ -1,0 +1,100 @@
+body{
+    background-color: lightgreen;
+}
+
+header{
+    margin: auto;
+}
+
+#header-img{
+    width:20%;
+    height:80%;
+    float: left;
+}
+
+header #nav-bar{
+    float: right;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    word-spacing: 0.8rem;
+    margin-bottom: 4%;
+}
+
+header #nav-bar a{
+    text-decoration: none;
+}
+
+header #nav-bar a:hover{
+    padding: 5px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid red;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+    word-spacing: 0.1rem;
+    margin-top: 5%;
+}
+
+#container #detailes figcaption{
+    font-weight: bold;
+    text-align: center;
+    font-size:20px;
+    margin-bottom: 3%;
+}
+
+.clearflex{
+    content: ".";
+    clear: both;
+}
+
+#container #buy-guide{
+    text-align: justify;
+    margin-left: 0px;
+    padding-right: 5%;
+    padding-left: 0px;
+}
+
+#container #detailes figure #pictures{
+    margin-bottom: 2%;
+}
+
+#container #detailes ul{
+    list-style: square;
+    float: left;
+    margin-right: 10%;
+}
+
+#container #detailes ul li{
+    color:brown;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+
+#buy-guide ul li span{
+    font-size: 1.3rem;
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 2px 10px yellow;
+}
+
+.footer{
+    padding :10px;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    word-spacing: 2.5rem;
+}
+
+#other-sites .footer li{
+    display: inline;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#other-sites .footer li a{
+    text-decoration: none;
+    color: white;
+}
